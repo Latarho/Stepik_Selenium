@@ -15,7 +15,7 @@ try:
     input3 = browser.find_element_by_name("email")
     input3.send_keys("latarho@gmail.com")
 
-    current_dir = os.path.abspath(os.path.dirname("C:/Users/latar/PycharmProjects/Stepik Selenium"))
+    current_dir = os.path.abspath(os.path.dirname("C:/Users/latar/PycharmProjects/Stepik Selenium/"))
     file_path = os.path.join(current_dir, "Serg.txt")
     element = browser.find_element_by_name("file")
     element.send_keys(file_path)
